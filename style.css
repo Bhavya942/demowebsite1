@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+}
+.head{
+    color:white;
+    background-color:rgb(209, 17, 17);
+    font-size: 28px;
+    padding :15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:100vw;
+}
+.nav{
+    color:white;
+    background-color: brown;
+    padding:10px;
+    width:100vw;
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+    list-style:none;
+}
+.line1{
+    background-color: blue;
+    height:.3vh;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+header img{
+    width:100vw;
+}
+.main{
+    display:flex;
+}
+.content{
+    margin-top:130px;
+    margin-left:60px;
+    margin-right:60px;
+}
+.links{
+    margin-top:130px;
+    margin-right:60px;
+}
+.links img{
+    width:20vw;
+    height:20vh;
+}
+.anno h3{
+    font-weight:900;
+}
+.line{
+    background-color: rgb(51, 51, 198);
+    height: 0.5vh;
+    width: 70vw;
+    margin-top:8px;
+    margin-bottom:20px;
+}
+.footer{
+    background-color: rgb(4, 10, 115);
+    color: white;
+    font-weight: 200;
+    margin-bottom:0;
+    margin-top:50px;
+    width:100vw;
+    padding:15px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
